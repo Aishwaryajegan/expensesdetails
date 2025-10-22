@@ -1,0 +1,18 @@
+.rows{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-block {
+  
+  min-width: auto;
+}
+.form-align {
+  margin-bottom: 20px;
+}
+input[type="date"],select,textarea,input[type="text"]{
+  border-color: #d4a325be;
+}

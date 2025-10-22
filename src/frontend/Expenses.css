@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.register-body-page {
+  min-height:100vh;
+  font-family: 'Poppins', sans-serif;
+ background-image: url('./img/expenseimge.jpg');
+ background-position: center;
+ background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.forms-wrappers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.forms-colors {
+  background-color: #e1ba89;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.forms-groups {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.inline-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.inline-group label {
+  font-weight: normal;
+}
+
+.but-exp {
+   background-color: #101316;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.but-exp:hover {
+   background-color: #373a3d;
+}
+
+
+
+.logins-links {
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.logins-links u {
+  color: #0c2431;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .forms-colors {
+    padding: 25px;
+  }
+
+  .inline-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
