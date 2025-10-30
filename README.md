@@ -1,6 +1,8 @@
 PROJECT DESCRIBTION
-
-The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
+💼 Expense Tracker Website – A responsive full-stack web app built with ReactJS, Node.js, Express, HTML, and CSS.
+Enables secure login, expense management, and filter/search for easy tracking.
+Includes interactive charts for expense visualization and real-time summaries.
+Designed with a clean UI/UX for smooth use across all devices.
 
 # Getting Started with Create React App
 
